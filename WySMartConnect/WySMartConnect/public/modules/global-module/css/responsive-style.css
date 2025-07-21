@@ -1,0 +1,266 @@
+@media only screen and (max-width:1559px) {}
+
+
+
+
+
+@media only screen and (max-width:1440px) {}
+
+
+
+
+
+@media only screen and (min-width:1351px) and (max-width:1620px) {}
+
+
+
+
+
+@media only screen and (min-width:1200px) and (max-width:1350px) {}
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1199px) {}
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {}
+
+
+
+
+
+@media only screen and (min-width:601px) and (max-width:768px) {}
+
+
+
+
+
+@media only screen and (max-width:1439px) {}
+
+
+
+
+
+@media only screen and (max-width:1200px) {}
+
+
+
+
+
+@media only screen and (max-width:991px) {}
+
+
+
+
+
+@media only screen and (max-width:849px) {
+
+
+
+
+
+    body ul.nav.nav-uppercase {
+
+
+        width: 75%;
+
+
+        justify-content: flex-start;
+
+
+    }
+
+
+
+    .show-for-medium a.shopByColor {
+        justify-content: center;
+        z-index: 99;
+        color: #444444;
+    }
+
+    a.shopByColor img {
+
+
+        width: 16px;
+
+        z-index: 99;
+        margin-right: 0;
+
+
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+
+    .popupCol {
+
+
+        width: 25%;
+
+
+        padding: 6px;
+
+
+    }
+
+
+
+
+
+    .popupCard p {
+
+
+        margin: 5px 0 0;
+
+
+        font-size: 12px;
+
+
+        line-height: 18px;
+
+
+    }
+
+
+
+
+
+    .white-popup {
+
+
+        max-width: 330px;
+
+
+        height: 470px;
+
+
+    }
+
+
+
+
+
+    .popupHeader {
+
+
+        padding: 12px 12px;
+
+
+    }
+
+
+
+
+
+    body button.mfp-close,
+    body .mfp-close-btn-in .mfp-close {
+
+
+        top: 7px !important;
+
+
+        right: 6px;
+
+
+    }
+
+
+
+
+
+    .popupCard span.scp-sbc-box {
+
+
+        display: block;
+
+
+        width: 30px;
+
+
+        height: 30px;
+
+
+    }
+
+
+
+
+
+    .popupBody {
+
+
+        padding: 15px 10px;
+
+
+        max-height: 280px;
+
+
+    }
+
+
+
+
+
+    .filterHeaderAction a {
+
+
+        font-size: 14px;
+
+
+        line-height: 22px;
+
+
+        margin-left: 5px;
+
+
+        padding: 8px 14px;
+
+
+    }
+
+
+
+
+
+    .selectedColor::after {
+
+
+        background-size: 13px;
+
+
+    }
+
+
+
+
+
+    .colorFilterBox .popupBody {
+
+
+        max-height: unset;
+
+
+        overflow: unset;
+
+
+    }
+
+    .shopByColorContainer .shopByColor span {
+        margin-left: 10px !important;
+        font-size: 16px !important;
+        font-family: inherit !important;
+    }
+
+}
