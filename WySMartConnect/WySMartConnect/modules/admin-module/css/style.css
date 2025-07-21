@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #2C783A;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #225b2c;
+}
+
+
+/* table css */
+    #ftpTable {
+        font-family: Arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    #ftpTable th, #ftpTable td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #ftpTable th {
+        background-color: #f2f2f2;
+        text-align: left;
+    }
+
+    #ftpTable tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 2px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+    .delete-button{
+        background-color: red;
+    }
+    .delete-button:hover {
+        background-color: #e70b0b;
+    }
+
+
+
+
+    .form-container {
+        position: relative;
+        padding: 20px;
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+    }
+
+    .close {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    .close:hover {
+        color: red;
+    }
+ 
